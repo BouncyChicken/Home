@@ -16,7 +16,7 @@
 </head>
 
 <body>
-  <div class="logoContainer"><img class="logo" src="image/logo.png" alt=""></div>
+  <div id="Home" class="logoContainer"><img class="logo" src="image/logo.png" alt=""></div>
   <nav class="navbar navbar-expand-md bg-dark navbar-dark mb-4 sticky-top">
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
       <span class="navbar-toggler-icon"></span>
@@ -24,13 +24,13 @@
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
         <li class="nav-item">
-          <a class="nav-link" href="#">Home</a>
+          <a class="nav-link" href="#Home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About Us</a>
+          <a class="nav-link" href="#about">About Us</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact</a>
+          <a class="nav-link" href="#contact">Contact</a>
         </li>
       </ul>
     </div>
@@ -46,7 +46,7 @@
     </div>
   </div>
   <div class="mt-sm-5 mt-3">
-    <p class="h2 fontOne ml-2 mb-3 borderUnderline d-inline-block">PRODUCTS</p>
+    <p class="h2 fontOne ml-2 mb-3 text-center ">PRODUCTS</p>
     <!-- chicken products  -->
     <p class="h4 fontOne m-3">CHICKEN</p>
     <div class="container-fluid">
@@ -247,12 +247,41 @@
            <div class="shadow">
              <img src="image/whiteEgg.png" alt="" class="w-100">
              <p class="text-center priceFont pt-3">White Eggs (30ps.)</p>
-             <p class="text-center p-3 priceFont"><i class="fa-solid fa-indian-rupee-sign"></i> 170</p>
+             <p class="text-center p-3 priceFont"  id="about"><i class="fa-solid fa-indian-rupee-sign"></i> 170</p>
            </div>
          </div>
          
        </div>
      </div>
+  </div>
+  <!-- about section  -->
+  <div class="mt-sm-5 ">
+    <p class="h2 fontOne ml-2 mb-4 mt-5 text-center">ABOUT US</p>
+    <p class=" text-center aboutTxt">Our goal is to make sure provide best service. If you have concerns, we are ready to help you over whatsapp or a phone call. </p>
+    <div class="container">
+      <div class="col-sm-5 m-sm-5 d-inline-block">
+        <p class="fontOne aboutTxt text-center">Committed to Quality</p>
+        <p class="aboutTxt text-justify">No matter what product you're looking for, we guarantee its quality. We want you to feel confident that your purchase is right for you.</p>
+      </div>
+      <div class="col-sm-5 m-sm-4 d-inline-block">
+        <p class="fontOne aboutTxt text-center">100% Satisfaction Guaranteed</p>
+        <p class="aboutTxt text-justify">We want you to be completely happy with your experience. If there is a problem with your order, get in touch so we can make it right. </p>
+      </div>
+    </div>
+  </div>
+  <!-- contact us  -->
+  <div class="mt-sm-5 mb-5" id="contact">
+    <p class="h2 fontOne ml-2 mb-4 mt-5 text-center">CONTACT US</p>
+    <div class="container mt-5">
+      <p class="fontOne aboutTxt text-center mt-4">Get in Touch!</p>
+      <p class="aboutTxt text-center mt-4">We love to hear from our customers. Feel free to contact us with any questions or order requests.</p>
+      <div class="col-4 d-inline-block"></div>
+      <a href="https://api.whatsapp.com/send?phone=917060400387&text=Hello"><div class="col-sm-4 d-inline-block"><p class="text-center btnwhatsap"><i class="fa-brands fa-square-whatsapp icon"></i> Message Us On WhatsApp</p></div></a>
+    </div>
+  </div>
+
+  <div class="bg-dark end">
+    <div class="container p-5 ">Copyright © 2022 - All Rights Reserved.</div>
   </div>
 </body>
 

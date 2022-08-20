@@ -36,3 +36,24 @@ body{
 .priceFont{
     font-size: x-large;
 }
+.aboutTxt{
+    font-size: x-large;
+}
+.icon{
+    color: rgb(9, 204, 9);
+}
+.btnwhatsap{
+ font-size: x-large;
+ border: 2px solid green;
+ padding: 4px;
+ border-radius: 5px;
+ cursor: pointer;
+}
+.btnwhatsap:hover{
+    background-color: bisque;
+}
+.end{
+    height: 180px;
+    color: aliceblue;
+    font-size: larger;
+}
